@@ -1,0 +1,39 @@
+{
+  "name": "gulp-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "gulp clean",
+    "lint": "gulp lint",
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "start": "gulp start",
+    "deploy": "gulp deploy --production"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-useref": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
